@@ -43,6 +43,7 @@ CREATE TABLE order_items (
 
 ===========================================================
 REST APIs are as follows:
+
 1. POST /orders  - Create order in the system and persist the same in orders and order_items table.
 	URL : http://localhost:82/phpAppWithSlim/index.php/
 	data : {"email_id":"jackkallis@gmail.com","status":"created", "name":"Pattis", "price": 12, "quantity": 2}
